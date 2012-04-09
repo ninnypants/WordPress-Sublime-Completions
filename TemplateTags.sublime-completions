@@ -31,7 +31,7 @@
 		{ "trigger": "wp_lostpassword_url", "contents": "wp_lostpassword_url('${1:/}')" },
 		{ "trigger": "wp_register", "contents": "wp_register(${1:'${2:<li>}'${3:, '${4:</li>}'${5:, ${6:true}}}})" },
 		{ "trigger": "wp_meta", "contents": "wp_meta()" },
-		{ "trigger": "bloginfo", "contents": "bloginfo('${1:show}'')" },
+		{ "trigger": "bloginfo", "contents": "bloginfo('${1:show}')" },
 		{ "trigger": "get_bloginfo", "contents": "get_bloginfo('${1:show}'${2:, '${3:raw}'})" },
 		{ "trigger": "get_current_blog_id", "contents": "get_current_blog_id()" },
 		{"trigger": "wp_title", "contents": "wp_title(${1:'${2:&raquo;}'${3:, ${4:true}${5:, '${6:left}'}}})"},
