@@ -834,7 +834,7 @@
     {"trigger": "get_home_url", "contents": "get_home_url(${1:\\$blog_id = null},${2:\\$path = ''},${3:\\$scheme = null})" },
     {"trigger": "site_url", "contents": "site_url(${1:\\$path = ''},${2:\\$scheme = null})" },
     {"trigger": "get_site_url", "contents": "get_site_url(${1:\\$blog_id = null},${2:\\$path = ''},${3:\\$scheme = null})" },
-    {"trigger": "admin_url", "contents": "admin_url(${1:\\$path = ''},${2:\\$scheme = 'admin'})" },
+    {"trigger": "admin_url", "contents": "admin_url(${1:'${2:/}'${3:, '${4:admin}'}})" },
     {"trigger": "get_admin_url", "contents": "get_admin_url(${1:\\$blog_id = null},${2:\\$path = ''},${3:\\$scheme = 'admin'})" },
     {"trigger": "includes_url", "contents": "includes_url(${1:\\$path = ''})" },
     {"trigger": "content_url", "contents": "content_url(${1:\\$path = ''})" },
