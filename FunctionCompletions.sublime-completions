@@ -1304,7 +1304,6 @@
     {"trigger": "wp_print_head_scripts", "contents": "wp_print_head_scripts()" },
     {"trigger": "_wp_footer_scripts", "contents": "_wp_footer_scripts()" },
     {"trigger": "wp_print_footer_scripts", "contents": "wp_print_footer_scripts()" },
-    {"trigger": "wp_enqueue_scripts", "contents": "wp_enqueue_scripts()" },
     {"trigger": "print_admin_styles", "contents": "print_admin_styles()" },
     {"trigger": "print_late_styles", "contents": "print_late_styles()" },
     {"trigger": "_print_styles", "contents": "_print_styles()" },
