@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+wp_nav_menu(array(
+	'theme_location' => ,
+	'menu' => ,
+	'container' => 'div',
+	'container_class' => 'menu-{menu slug}-container',
+	'container_id' => '',
+	'menu_class' => 'menu',
+	'menu_id' => '',
+	'echo' => true,
+	'fallback_cb' => 'wp_page_menu',
+	'before' => '',
+	'after' => '',
+	'link_before' => '',
+	'link_after' => '',
+	'items_wrap' => '<ul id = "%1\$s" class = "%2\$s">%3\$s</ul>',
+	'depth' => 0,
+	'walker' => ,
+));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wp_nav_menu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php - variable.other.php</scope>
+	<description>wp_nav_menu call with all options</description>
+</snippet>
