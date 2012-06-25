@@ -15,7 +15,7 @@ wp_login_form(array(
 	${23:'remember' => ${24:true},}
 	${25:'value_username' => ${26:null},}
 	${27:'value_remember' => ${28:false},}
-))
+));
 ]]></content>
 	<tabTrigger>wp_login_form</tabTrigger>
 	<scope>source.php - variable.other.php</scope>
