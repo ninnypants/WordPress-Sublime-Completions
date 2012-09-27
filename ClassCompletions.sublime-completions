@@ -57,6 +57,6 @@
 		"WP_Widget_Search",
 		"WP_Widget_Tag_Cloud",
 		"WP_Widget_Text",
-		"WP_oEmbed",
+		"WP_oEmbed"
 	]
 }

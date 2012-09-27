@@ -57,7 +57,7 @@
 		"blog_redirect_404",
 		"body_class",
 		"browse-happy-notice",
-		"bulk_actions-{\\$screen->id}"
+		"bulk_actions-{\\$screen->id}",
 		"cancel_comment_reply_link",
 		"can_edit_network",
 		"category_archive_meta",
@@ -93,7 +93,7 @@
 		"comment_form_defaults",
 		"comment_form_default_fields",
 		"comment_form_field_comment",
-		"comment_form_field_{\\$name}"
+		"comment_form_field_{\\$name}",
 		"comment_form_logged_in",
 		"comment_id_fields",
 		"comment_max_links_url",
@@ -656,7 +656,7 @@
 		"single_tag_title",
 		"single_term_title",
 		"site_option_{\\$option}",
-		"site_transient_{\\$transient}"
+		"site_transient_{\\$transient}",
 		"site_url",
 		"smilies_src",
 		"split_the_query",

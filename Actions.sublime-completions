@@ -153,7 +153,7 @@
 		"customize_register",
 		"customize_render_control",
 		"customize_render_control_{\\$this->id}",
-		"customize_render_section"
+		"customize_render_section",
 		"customize_render_section{\\$this->id}",
 		"customize_save",
 		"customize_save_{\\$this->id_data}[base]",
@@ -421,7 +421,7 @@
 		"twentyeleven_enqueue_color_scheme",
 		"twentyten_credits",
 		"unarchive_blog",
-		"uninstall_{\\$file}"
+		"uninstall_{\\$file}",
 		"unload_textdomain",
 		"unmanture_blog",
 		"unspammed_comment",
