@@ -4,7 +4,7 @@ wp_nav_menu(array(
 	'theme_location' => ${1:''},
 	'menu' => ${2:},
 	'container' => ${3:'div'},
-	'container_class' => ${4:'menu-{menu slug}-container'},
+	'container_class' => ${4:'menu-\{menu slug\}-container'},
 	'container_id' => ${5:''},
 	'menu_class' => ${6:'menu'},
 	'menu_id' => ${7:''},
