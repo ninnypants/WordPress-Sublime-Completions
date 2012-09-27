@@ -1,22 +1,22 @@
 <snippet>
 	<content><![CDATA[
 wp_nav_menu(array(
-	'theme_location' => ,
-	'menu' => ,
-	'container' => 'div',
-	'container_class' => 'menu-{menu slug}-container',
-	'container_id' => '',
-	'menu_class' => 'menu',
-	'menu_id' => '',
-	'echo' => true,
-	'fallback_cb' => 'wp_page_menu',
-	'before' => '',
-	'after' => '',
-	'link_before' => '',
-	'link_after' => '',
-	'items_wrap' => '<ul id = "%1\$s" class = "%2\$s">%3\$s</ul>',
-	'depth' => 0,
-	'walker' => ,
+	'theme_location' => ${1:''},
+	'menu' => ${2:},
+	'container' => ${3:'div'},
+	'container_class' => ${4:'menu-{menu slug}-container'},
+	'container_id' => ${5:''},
+	'menu_class' => ${6:'menu'},
+	'menu_id' => ${7:''},
+	'echo' => ${8:true},
+	'fallback_cb' => ${9:'wp_page_menu'},
+	'before' => ${10:''},
+	'after' => ${11:''},
+	'link_before' => ${12:''},
+	'link_after' => ${13:''},
+	'items_wrap' => ${14:'<ul id = "%1\$s" class = "%2\$s">%3\$s</ul>'},
+	'depth' => ${15:0},
+	'walker' => ${16:},
 ));
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
