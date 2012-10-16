@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+register_taxonomy('${1:taxonomy}', array('${2:object_type}'), array(
+	${3:'label' => __('${4:taxonomy-plural-name}'),
+	}${5:'labels' => array(
+		'name' => _x( '${6:$4}', 'taxonomy general name' ),
+		'singular_name' => _x( '${7:singular name}', 'taxonomy singular name' ),
+		'search_items' =>  __( '${8:Search $4}' ),
+		'popular_items' => __( '${9:Popular $4}' ),
+		'all_items' => __( '${10:All $4}' ),
+		'parent_item' => ${11:null},
+		'parent_item_colon' => ${12:null},
+		'edit_item' => __( '${13:Edit $7}' ),
+		'update_item' => __( '${14:Update $7}' ),
+		'add_new_item' => __( '${15:Add New $7}' ),
+		'new_item_name' => __( '${16:New $7 Name}' ),
+		'separate_items_with_commas' => __( '${17:Separate $4 with commas}' ),
+		'add_or_remove_items' => __( '${18:Add or remove $4}' ),
+		'choose_from_most_used' => __( '${19:Choose from the most used $4}' ),
+		'menu_name' => __( '${20:$4}' ),
+	),
+	}${21:'public' => ${22:true},
+	}${23:'show_in_nav_menus' => ${24:$22},
+	}${25:'show_ui' => ${26:$22},
+	}${27:'show_tagcloud' => ${28:$26},
+	}${29:'hierarchial' => ${30:false},
+	}${31:'update_count_callback' => '${32:}',
+	}${33:'query_var' => '${34:$1}',
+	}${35:'rewrite' => ${36:array(
+		${37:'slug' => '${38:$1}',
+		}${39:'with_front' => ${40:true},
+		}${41:'hierchical' => ${42:false},
+	})},
+	}${43:'capabilities' => array(${44:'manage_terms', }${45:'edit_terms', }${46:'delete_terms', }${47:'manage_categories', }${48:'assign_terms',}),}
+));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>register_taxonomy</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php - variable.other.php</scope>
+</snippet>
