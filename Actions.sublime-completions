@@ -220,6 +220,8 @@
 		"edit_category_form_pre",
 		"edit_comment",
 		"edit_form_advanced",
+		"edit_form_after_editor",
+		"edit_form_after_title",
 		"edit_link",
 		"edit_link_category_form",
 		"edit_link_category_form_fields",
