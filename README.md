@@ -32,6 +32,7 @@ trim( get_post_meta( get_the_ID(), '${1:key}', true ) )
 </snippet>
 ```
 
-Fork of: https://github.com/purplefish32/sublime-text-2-wordpress
 
+--------------------------------------------------------------------------
+Fork of: https://github.com/purplefish32/sublime-text-2-wordpress
 Original TextMate bundle author : Gipetto - https://github.com/Gipetto/wordpress.tmbundle
