@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+trim( get_post_meta( get_the_ID(), '${1:key}', true ) )
+]]></content>
+	<tabTrigger>gpm</tabTrigger>
+	<description>Retrieve Custom Field with whitespace trim</description>
+</snippet>
