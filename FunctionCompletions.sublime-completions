@@ -56,7 +56,7 @@
     {"trigger": "get_the_modified_author", "contents": "get_the_modified_author()" },
     {"trigger": "the_modified_author", "contents": "the_modified_author()" },
     {"trigger": "get_the_author_meta", "contents": "get_the_author_meta( ${1:${2:\\$field = ''}${3:, ${4:\\$user_id = false}}} )" },
-    {"trigger": "the_author_meta", "contents": "the_author_meta( ${1:${2:\\$field = ''}${3:, ${4\\$user_id = false}}} )" },
+    {"trigger": "the_author_meta", "contents": "the_author_meta( ${1:${2:\\$field = ''}${3:, ${4:\\$user_id = false}}} )" },
     {"trigger": "get_the_author_link", "contents": "get_the_author_link()" },
     {"trigger": "the_author_link", "contents": "the_author_link()" },
     {"trigger": "get_the_author_posts", "contents": "get_the_author_posts()" },
