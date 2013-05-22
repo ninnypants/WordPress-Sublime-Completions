@@ -191,7 +191,7 @@
     {"trigger": "comments_open", "contents": "comments_open( ${1:\\$post_id = null} )" },
     {"trigger": "pings_open", "contents": "pings_open( ${1:\\$post_id = null} )" },
     {"trigger": "wp_comment_form_unfiltered_html_nonce", "contents": "wp_comment_form_unfiltered_html_nonce()" },
-    {"trigger": "comments_template", "contents": "comments_template( ${1:\\$file = '/comments.php'}${2:, ${3:\\$separate_comments = false}} )" },
+    {"trigger": "comments_template", "contents": "comments_template( ${1:${2:\\$file = '/comments.php'}${3:, ${4:\\$separate_comments = false}}} )" },
     {"trigger": "comments_popup_script", "contents": "comments_popup_script( ${1:${2:\\$width = 400}${3:, ${4:\\$height = 400}${5:, ${6:\\$file = ''}}}} )" },
     {"trigger": "comments_popup_link", "contents": "comments_popup_link( ${1:${2:\\$zero = false}${3:, ${4:\\$one = false}${5:, ${6:\\$more = false}${7:, ${8:\\$css_class = ''}${9:, ${10:\\$none = false}}}}}} )" },
     {"trigger": "get_comment_reply_link", "contents": "get_comment_reply_link( ${1:${2:\\$args = array()}${3:, ${4:\\$comment = null}${5:, ${6:\\$post = null}}}} )" },
