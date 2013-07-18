@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<?php wp_head(); ?>
+]]></content>
+	<tabTrigger>wp_head</tabTrigger>
+	<scope>text.html</scope>
+	<description>Quick output wp_head()</description>
+</snippet>

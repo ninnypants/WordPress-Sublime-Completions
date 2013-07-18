@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<?php wp_footer(); ?>
+]]></content>
+	<tabTrigger>wp_footer</tabTrigger>
+	<scope>text.html</scope>
+	<description>Quick output wp_footer()</description>
+</snippet>
