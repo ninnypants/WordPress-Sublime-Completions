@@ -23,14 +23,14 @@ register_taxonomy('${1:taxonomy}', array('${2:object_type}'), array(
 	}${23:'show_in_nav_menus' => ${24:$22},
 	}${25:'show_ui' => ${26:$22},
 	}${27:'show_tagcloud' => ${28:$26},
-	}${29:'hierarchial' => ${30:false},
+	}${29:'hierarchical' => ${30:false},
 	}${31:'update_count_callback' => '${32:}',
 	}${33:'query_var' => '${34:$1}',
 	}${35:'rewrite' => ${36:array(
-		${37:'slug' => '${38:$1}',
-		}${39:'with_front' => ${40:true},
-		}${41:'hierchical' => ${42:false},
-	})},
+		${37:'slug' => '${38:$1}',}
+		${39:'with_front' => ${40:true},}
+		${41:'hierarchical' => ${42:false},}
+	)},
 	}${43:'capabilities' => array(${44:'manage_terms', }${45:'edit_terms', }${46:'delete_terms', }${47:'manage_categories', }${48:'assign_terms',}),}
 ));
 ]]></content>
