@@ -3,7 +3,7 @@
 /* =$1
 -------------------------------------------------------------- */
 ]]></content>
-    <tabTrigger>/* </tabTrigger>
+    <tabTrigger><![CDATA[/* ]]></tabTrigger>
     <scope>source.css</scope>
     <description>CSS seciton seperator</description>
 </snippet>
