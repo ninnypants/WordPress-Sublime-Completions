@@ -4,6 +4,6 @@
 -------------------------------------------------------------- */
 ]]></content>
     <tabTrigger><![CDATA[/* ]]></tabTrigger>
-    <scope>source.css</scope>
+    <scope>source.css, source.scss, source.sass</scope>
     <description>CSS seciton seperator</description>
 </snippet>
