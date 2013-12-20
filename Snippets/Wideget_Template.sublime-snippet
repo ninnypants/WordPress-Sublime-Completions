@@ -2,51 +2,51 @@
 	<content><![CDATA[
 class ${1:Custom}_Widget extends WP_Widget {
 
-    public \$classname = '${2:widget--custom}';
+	public \$classname = '${2:widget--custom}';
 
-    public function __construct() {
-        parent::__construct(
-            \$this->classname, // widget id
-            '${3:Custom}', // widget title
-            array(
-                'classname' => \$this->classname,
-                'description' => '${4:Widget Description}',
-            )
-        );
-    }
+	public function __construct() {
+		parent::__construct(
+			\$this->classname, // widget id
+			'${3:Custom}', // widget title
+			array(
+				'classname' => \$this->classname,
+				'description' => '${4:Widget Description}',
+			)
+		);
+	}
 
-    public function widget( \$args, \$instance ) {
-        echo \$args['before_widget'];
-            echo \$args['before_title'] . \$instance['title'] . \$args['after_title'];
+	public function widget( \$args, \$instance ) {
+		echo \$args['before_widget'];
+			echo \$args['before_title'] . \$instance['title'] . \$args['after_title'];
 
-            // widget content
-            echo \$instance['content'];
+			// widget content
+			echo \$instance['content'];
 
-        echo \$args['after_widget'];
-    }
+		echo \$args['after_widget'];
+	}
 
-    public function update( \$new_instance, \$old_instance ) {
-        // make modifications to widget instance
-        // before it's saved
-        return \$new_instance;
-    }
+	public function update( \$new_instance, \$old_instance ) {
+		// make modifications to widget instance
+		// before it's saved
+		return \$new_instance;
+	}
 
-    public function form( \$instance ) {
-        $instance = wp_parse_args( (array) \$instance, array( 'title' => '', 'content' => '', ) );
+	public function form( \$instance ) {
+		\$instance = wp_parse_args( (array) \$instance, array( 'title' => '', 'content' => '', ) );
 
-        // display field names here using:
-        // \$this->get_field_id('option_name') - the CSS ID
-        // \$this->get_field_name('option_name') - the HTML name
-        // \$instance['option_name'] - the option value
-        ?>
-        <p><label for="<?php echo \$this->get_field_id( 'title' ); ?>">Title: <input type="text" name="<?php echo \$this->get_field_name( 'title' ); ?>" id="<?php echo \$this->get_field_id( 'title' ); ?>" value="<?php echo esc_attr( \$instance['title'] ); ?>" placeholder="Widget Title"></label></p>
-        <p><label for="<?php echo \$this->get_field_id( 'content' ); ?>">Content:</label> <br><textarea type="text" name="<?php echo \$this->get_field_name( 'content' ); ?>" id="<?php echo \$this->get_field_id( 'content' ); ?>" value="<?php echo esc_textarea( \$instance['content'] ); ?>" placeholder="Widget content"></textarea></p>
-        <?php
-    }
+		// display field names here using:
+		// \$this->get_field_id('option_name') - the CSS ID
+		// \$this->get_field_name('option_name') - the HTML name
+		// \$instance['option_name'] - the option value
+		?>
+		<p><label for="<?php echo \$this->get_field_id( 'title' ); ?>">Title: <input type="text" name="<?php echo \$this->get_field_name( 'title' ); ?>" id="<?php echo \$this->get_field_id( 'title' ); ?>" value="<?php echo esc_attr( \$instance['title'] ); ?>" placeholder="Widget Title"></label></p>
+		<p><label for="<?php echo \$this->get_field_id( 'content' ); ?>">Content:</label> <br><textarea type="text" name="<?php echo \$this->get_field_name( 'content' ); ?>" id="<?php echo \$this->get_field_id( 'content' ); ?>" value="<?php echo esc_textarea( \$instance['content'] ); ?>" placeholder="Widget content"></textarea></p>
+		<?php
+	}
 
-    public static function register() {
-        register_widget( __class__ );
-    }
+	public static function register() {
+		register_widget( __class__ );
+	}
 }
 
 add_action( 'widgets_init', array( '$1_Widget', 'register' ) );
